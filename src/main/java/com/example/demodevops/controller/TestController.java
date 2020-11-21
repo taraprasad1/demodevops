@@ -13,4 +13,8 @@ public class TestController {
 	public String testResource1() {
 		return "hello world everyone";
 	}
+	@GetMapping("test2")
+	public String testResource2() {
+		return "hello test";
+	}
 }
